@@ -36,5 +36,5 @@ jobs:
       uses: actions/upload-artifact@v4.3.1
       with:
         name: my-artifact
-        path: API_and_Web_Test/**
+        path: API_and_Web_Test/tree/main
         if-no-files-found: error

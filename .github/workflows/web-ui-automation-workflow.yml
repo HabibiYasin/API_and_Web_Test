@@ -38,4 +38,3 @@ jobs:
         name: my-artifact
         path: API_and_Web_Test/**
         if-no-files-found: error
-        if-empty: error

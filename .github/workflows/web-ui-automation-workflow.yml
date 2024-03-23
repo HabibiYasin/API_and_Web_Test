@@ -31,3 +31,11 @@ jobs:
     #Execute gradle command for running cucumber test
     - name: Execute Test
       run: ./gradlew cucumber
+    #build artifact
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.3.1
+      with:
+        name: my-artifact
+        path: API_and_Web_Test/**
+        if-no-files-found: error
+        if-empty: error

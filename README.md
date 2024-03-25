@@ -28,6 +28,9 @@ Konsep Page Object Model digunakan dalam proyek ini untuk mengelola elemen-eleme
 5. **Lihat Hasil Pengujian**
 Setelah pengujian selesai, Anda dapat melihat hasilnya di laporan pengujian yang dihasilkan, biasanya berada di direktori `reports/`.
 
+**##Contoh Hasil Report**
+![Hasiil-Report](https://github.com/HabibiYasin/API_and_Web_Test/blob/main/Screenshot_5.jpg?raw=true)
+
 ## Catatan
 - Pastikan untuk mengonfigurasi URL atau endpoint yang sesuai dengan aplikasi yang ingin diuji.
 - Jika ada dependensi tambahan yang diperlukan, pastikan untuk menambahkannya ke dalam berkas `build.gradle`.
